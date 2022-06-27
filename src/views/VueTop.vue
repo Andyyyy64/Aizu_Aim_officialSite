@@ -10,8 +10,5 @@ export default {
 }
 </script>
 <style>
-.backimg {
-    
-}
 
 </style>

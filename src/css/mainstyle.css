@@ -1,0 +1,137 @@
+* {
+    margin: 0 auto;
+    height: 54px;
+}
+
+header {
+    background-color: rgb(27, 27, 146);
+    padding-left: 20px;
+    color: aliceblue;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.headertitle {
+    font-family: 'Londrina Shadow', cursive;
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+header .gnav .menu {
+    display: flex;
+    margin-top: 13px;
+    margin-left: 700px;
+}
+
+header .gnav .menu li {
+    list-style: none;
+
+}
+
+header .gnav .menu li+li {
+    margin-left: 40px;
+
+}
+
+.menutitle {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 20px;
+}
+
+.menutitle:hover {
+    text-decoration: underline black;
+    opacity: 0.7;
+}
+
+.menutitle:active {
+    opacity: 1;
+}
+
+main {
+    position: relative;
+    height: 1000px;
+    width: 100%;
+    padding-top: 54px;
+}
+
+.maintitle {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    color: rgb(70, 76, 183);
+    font-size: 170px;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: 'Creepster', cursive;
+}
+
+.subtitle {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: "Cherry", cursive;
+    font-weight: bold;
+}
+
+.Cinfo {
+    font-family: "Hannari";
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.Cinfo::before,
+.Cinfo::after {
+    border-top: 1px solid black;
+    content: "";
+    width: 20px;
+}
+
+.Cinfo::before {
+    margin-right: 15px;
+}
+
+.Cinfo::after {
+    margin-left: 15px;
+}
+
+
+.backimg {
+    width: 100%;
+    height: 520px;
+}
+
+div.newtopic {
+    margin-top: 50px;
+    width: 300px;
+    height: 500px;
+    overflow: scroll;
+    font-family: "Hannari";
+}
+
+.topictitle {
+    position: absolute;
+    top: 62%;
+    left: 35%;
+    font-family: "Hannari";
+    font-weight: bold;
+}
+.topicinfo{
+    margin-left: 20px;
+}
