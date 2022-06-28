@@ -7,14 +7,14 @@
   <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
   <div>
     <header>
-      <h1 class="headertitle">Aizu Aim</h1>
+      <a href="" class="mainpage"><h1 class="headertitle">Aizu Aim</h1></a>
       <nav class="gnav">
         <ul class="menu">
           <li>
             <router-link to="/" class="menutitle">top</router-link>
           </li>
           <li>
-            <router-link to="/sns" class="menutitle">sns</router-link>
+            <router-link to="/member" class="menutitle">member</router-link>
           </li>
           <li>
             <router-link to="/activity" class="menutitle">Activity</router-link>
@@ -24,8 +24,6 @@
     </header>
     <router-view></router-view>
     <footer>
-      <h1>
-      </h1>
     </footer>
   </div>
 </template>
