@@ -4,11 +4,11 @@
             <img alt="back img" src="../assets/back3.jpg" class="backimg">
             <h1 class="maintitle">member</h1>
             <p class="subtitle">The world's greatest geniuses</p>
-            <p class="Cinfo">櫻井彩登</p>
+            <p class="Cinfo">櫻井 彩登</p>
 
             <div class="membercontainer">
                 <h2 class="membername">Ayato</h2>
-                <a href=""><img src="../assets/Juralogo.jpg" class="membervio"></a>
+                <a href=""><img src="../assets/Ayatologo.jpg" class="membervio"></a>
                 <p class="memberinfo">aaa</p>
             </div>
         </main>

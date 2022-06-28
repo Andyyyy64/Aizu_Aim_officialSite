@@ -11,14 +11,14 @@ import VueAyato from "../memberpages/VueAyato.vue"
 
 const routes = [
   {path:'/',name:'top',component:VueTop},
-  {path:'/member',name:'sns',component:VueMember},
+  {path:'/members',name:'sns',component:VueMember},
   {path:'/activity',name:'activity',component:VueActivity},
-  {path:'/andy',name:'andy',component:VueAndy},
-  {path:'/jura',name:'jura',component:VueJura},
-  {path:'/sora',name:'sora',component:VueSora},
-  {path:'/tuchiya',name:'tuchiya',component:VueTuchiya},
-  {path:'/mori',name:'mori',component:VueMori},
-  {path:'/ayato',name:'ayato',component:VueAyato},
+  {path:'/members/andy',name:'andy',component:VueAndy},
+  {path:'/members/jura',name:'jura',component:VueJura},
+  {path:'/members/sora',name:'sora',component:VueSora},
+  {path:'/members/tuchiya',name:'tuchiya',component:VueTuchiya},
+  {path:'/members/mori',name:'mori',component:VueMori},
+  {path:'/members/ayato',name:'ayato',component:VueAyato},
 ]
 
 const router = createRouter({

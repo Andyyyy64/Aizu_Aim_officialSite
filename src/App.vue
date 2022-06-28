@@ -14,7 +14,7 @@
             <router-link to="/" class="menutitle">top</router-link>
           </li>
           <li>
-            <router-link to="/member" class="menutitle">member</router-link>
+            <router-link to="/members" class="menutitle">member</router-link>
           </li>
           <li>
             <router-link to="/activity" class="menutitle">Activity</router-link>

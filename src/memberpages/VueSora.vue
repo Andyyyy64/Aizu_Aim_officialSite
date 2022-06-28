@@ -8,7 +8,7 @@
 
             <div class="membercontainer">
                 <h2 class="membername">Sora</h2>
-                <a href=""><img src="../assets/Juralogo.jpg" class="membervio"></a>
+                <a href=""><img src="../assets/Soralogo.jpg" class="membervio"></a>
                 <p class="memberinfo">aaa</p>
             </div>
         </main>
