@@ -22,16 +22,7 @@
         </ul>
       </nav>
     </header>
-    <main>
-      <img alt="back img" src="./assets/back3.jpg" class="backimg">
-      <h1 class="maintitle">Aizu Aim</h1>
-      <p class="subtitle">Be BAKA,Be AHO</p>
-      <p class="Cinfo">私たちは会津大学に所属する天才６人のコミュニティです<br>6人の専門分野はそれぞれで,web,機械学習,低レイヤーなどです</p>
-      <p class="topictitle">最近の出来事</p>
-      <div class="newtopic">
-        <p>2022/6/27<a href="" class="topicinfo">ホームページ開設</a></p>
-      </div>
-    </main>
+    <router-view></router-view>
     <footer>
       <h1>
       </h1>

@@ -4,9 +4,9 @@ import VueSns from "../views/VueSns.vue"
 import VueActivity from "../views/VueActivity.vue"
 
 const routes = [
-  {path:'/',name:'top',Comment:VueTop},
-  {path:'/sns',name:'sns',Comment:VueSns},
-  {path:'/activity',name:'activity',Comment:VueActivity},
+  {path:'/',name:'top',component:VueTop},
+  {path:'/sns',name:'sns',component:VueSns},
+  {path:'/activity',name:'activity',component:VueActivity},
 ]
 
 const router = createRouter({
