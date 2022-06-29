@@ -4,7 +4,7 @@
             <img alt="back img" src="../assets/back3.jpg" class="backimg">
             <h1 class="maintitle">member</h1>
             <p class="subtitle">The world's greatest geniuses</p>
-            <p class="Cinfo">ロッシアンディ拓也</p>
+            <p class="Cinfo">ロッシ アンディ拓也</p>
 
             <div class="membercontainer">
                 <h2 class="membername">Andy</h2>

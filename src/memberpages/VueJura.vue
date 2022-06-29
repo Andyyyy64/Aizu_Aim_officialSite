@@ -4,7 +4,7 @@
             <img alt="back img" src="../assets/back3.jpg" class="backimg">
             <h1 class="maintitle">member</h1>
             <p class="subtitle">The world's greatest geniuses</p>
-            <p class="Cinfo">高本潤良</p>
+            <p class="Cinfo">高本 潤良</p>
 
             <div class="membercontainer">
                 <h2 class="membername">Jura</h2>

@@ -1,0 +1,159 @@
+.nameW {
+    position: relative;
+}
+
+.memberclick {
+    text-decoration: none;
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 40px;
+    color: black;
+    margin-left: 10%;
+    font-weight: bold;
+    display: flex;
+    margin-top: 20px;
+    display: inline-block;
+    transition: .3s;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.memberclick:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.memberline {
+    animation: color-change 2s linear infinite;
+    font-family: 'Corben', cursive;
+    font-size: 30px;
+    font-weight: lighter;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+@keyframes color-change {
+    0%,100%{
+      color:#ff1493;
+    }
+  
+    25%{
+      color:#7fff00;
+    }
+    
+    50%{
+      color:#0091EA;
+    }
+    
+    75%{
+      color:#9400d3;
+    }
+  }
+
+.AA {
+    opacity: 0;
+    display: inline-block;
+    transition: .3s;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.A:hover+.AA {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.SS {
+    opacity: 0;
+    display: inline-block;
+    transition: .3s;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.S:hover+.SS {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.TT {
+    opacity: 0;
+    display: inline-block;
+    transition: .3s;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.T:hover+.TT {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.JJ {
+    opacity: 0;
+    display: inline-block;
+    transition: .3s;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.J:hover+.JJ {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.MM {
+    opacity: 0;
+    display: inline-block;
+    transition: .3s;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.M:hover+.MM {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.KK {
+    opacity: 0;
+    display: inline-block;
+    transition: .3s;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.K:hover+.KK {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.S {
+    color: rgb(218, 62, 62);
+}
+
+.A {
+    color: green;
+}
+
+.K {
+    color: rgb(97, 97, 251);
+}
+
+.T {
+    color: brown;
+}
+
+.J {
+    color: rgb(205, 205, 0);
+}
+
+.M {
+    color: orange;
+}
