@@ -18,24 +18,36 @@ header {
 }
 
 .headertitle {
+    position: relative;
     font-family: 'Londrina Shadow', cursive;
     margin-left: 10px;
     font-size: 40px;
-    padding: 0 .3em;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgb(24, 61, 196) 50%);
-    background-position: 0 0;
-    background-size: 200% auto;
-    transition: .3s;
     color: #fff;
+
 }
-.headertitle:hover{
-    background-position: -100% 0;
-    color: #fff;
+
+.headertitle:hover::after {
+    clip: rect(0px, 300px, 100px, 0);
 }
-.hedertitlelink{
+
+.headertitle::after {
+    content: attr(data-txt);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 48px;
+    color: #ffd770;
+    clip: rect(0, 0, 100px, 0);
+    transition: clip 0.5s linear;
+}
+
+.hedertitlelink {
     text-decoration: none;
 }
-.hedertitlelink:hover{
+
+.hedertitlelink:hover {
     text-decoration: none;
 }
 
@@ -59,13 +71,74 @@ header .gnav .menu li+li {
     color: aliceblue;
     text-decoration: none;
     font-family: 'Londrina Shadow', cursive;
-    font-size: 20px;
+    font-size: 25px;
 }
 
-.menutitle:hover {
-    text-decoration: underline black;
+
+.menutitle:hover:after {
     opacity: 0.7;
 }
+
+.top{
+    position: relative;
+}
+.top::after{
+    content: attr(data-txt);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 30px;
+    color: rgb(1, 255, 1);
+    clip: rect(0, 0, 100px, 0);
+    transition: clip 3s linear;
+}
+
+.top:hover::after {
+    clip: rect(0px, 300px, 100px, 0);
+}
+
+.member{
+    position: relative;
+}
+.member::after{
+    content: attr(data-txt);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 30px;
+    color: #bfff00;
+    clip: rect(0, 0, 100px, 0);
+    transition: clip 1s linear;
+}
+
+.member:hover::after {
+    clip: rect(0px, 300px, 100px, 0);
+}
+
+.Activity{
+    position: relative;
+}
+.Activity::after{
+    content: attr(data-txt);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 30px;
+    color: #ff0000;
+    clip: rect(0, 0, 100px, 0);
+    transition: clip 1s linear;
+}
+
+.Activity:hover::after {
+    clip: rect(0px, 300px, 100px, 0);
+}
+
 
 .menutitle:active {
     opacity: 1;
@@ -154,22 +227,27 @@ div.newtopic {
     margin-top: 14%;
 
 }
-.topicinfo{
+
+.topicinfo {
     margin-left: 20px;
 }
-.date{
+
+.date {
     border-top: 2px solid gray;
     padding-top: 10px;
 }
-.mainpage{
+
+.mainpage {
     text-decoration: none;
     color: aliceblue;
 }
-@media screen and (max-width:1300px){
-    .backimg{
+
+@media screen and (max-width:1300px) {
+    .backimg {
         height: 520px;
     }
-    .topic{
+
+    .topic {
         margin-top: 30px;
     }
 }

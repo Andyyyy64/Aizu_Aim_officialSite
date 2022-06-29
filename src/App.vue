@@ -6,22 +6,24 @@
   <link href="https://fonts.googleapis.com/earlyaccess/kokoro.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
-  
+
   <div>
     <header>
-      <a href="" class="mainpage">
-        <router-link to="/" class="hedertitlelink"><h1 class="headertitle">Aizu Aim</h1></router-link>
-      </a>
+
+      <router-link to="/" class="hedertitlelink">
+        <h1 class="headertitle" data-txt="Aizu Aim">Aizu Aim</h1>
+      </router-link>
+
       <nav class="gnav">
         <ul class="menu">
           <li>
-            <router-link to="/" class="menutitle">top</router-link>
+            <router-link to="/" class="menutitle top" data-txt="top">top</router-link>
           </li>
           <li>
-            <router-link to="/members" class="menutitle">member</router-link>
+            <router-link to="/members" class="menutitle member" data-txt="member">member</router-link>
           </li>
           <li>
-            <router-link to="/activity" class="menutitle">Activity</router-link>
+            <router-link to="/activity" class="menutitle Activity" data-txt="Activity">Activity</router-link>
           </li>
         </ul>
       </nav>
