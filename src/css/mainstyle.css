@@ -23,11 +23,20 @@ header {
     margin-left: 10px;
     font-size: 40px;
     color: #fff;
+    display: inline-block;
+    transition: .3s;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
 
+.headertitle:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .headertitle:hover::after {
     clip: rect(0px, 300px, 100px, 0);
+
 }
 
 .headertitle::after {
@@ -72,17 +81,24 @@ header .gnav .menu li+li {
     text-decoration: none;
     font-family: 'Londrina Shadow', cursive;
     font-size: 25px;
+    display: inline-block;
+    transition: .2s;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.menutitle:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: 0.6;
 }
 
 
-.menutitle:hover:after {
-    opacity: 0.7;
-}
-
-.top{
+.top {
     position: relative;
 }
-.top::after{
+
+.top::after {
     content: attr(data-txt);
     position: absolute;
     top: 0;
@@ -90,19 +106,20 @@ header .gnav .menu li+li {
     width: 100%;
     height: 50px;
     line-height: 30px;
-    color: rgb(1, 255, 1);
+    color: #ff0000;
     clip: rect(0, 0, 100px, 0);
-    transition: clip 3s linear;
+    transition: clip 1s linear;
 }
 
 .top:hover::after {
     clip: rect(0px, 300px, 100px, 0);
 }
 
-.member{
+.member {
     position: relative;
 }
-.member::after{
+
+.member::after {
     content: attr(data-txt);
     position: absolute;
     top: 0;
@@ -110,7 +127,7 @@ header .gnav .menu li+li {
     width: 100%;
     height: 50px;
     line-height: 30px;
-    color: #bfff00;
+    color: #ff0000;
     clip: rect(0, 0, 100px, 0);
     transition: clip 1s linear;
 }
@@ -119,10 +136,11 @@ header .gnav .menu li+li {
     clip: rect(0px, 300px, 100px, 0);
 }
 
-.Activity{
+.Activity {
     position: relative;
 }
-.Activity::after{
+
+.Activity::after {
     content: attr(data-txt);
     position: absolute;
     top: 0;
